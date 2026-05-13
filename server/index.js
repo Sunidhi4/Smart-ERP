@@ -5,7 +5,13 @@ require('dotenv').config();
 
 const app = express();
 
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'https://smart-erp-frontend.vercel.app', // you'll know exact URL after Vercel deploy
+  ],
+  credentials: true,
+}));
 app.use(express.json());
 
 // ── Routes ─────────────────────────────────────────────────────────────────
