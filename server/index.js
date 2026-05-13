@@ -8,9 +8,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://smart-erp-frontend.vercel.app', // you'll know exact URL after Vercel deploy
+    'https://smart-erp-hazel.vercel.app/login', // replace with your real URL
   ],
-  credentials: true,
 }));
 app.use(express.json());
 
