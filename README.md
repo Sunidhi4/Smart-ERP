@@ -11,7 +11,7 @@ React • Node.js • MongoDB • Gemini AI
 - Real-time dashboard with charts
 
 ## Live Demo
-[your-app.vercel.app](https://your-app.vercel.app)
+https://smart-erp-hazel.vercel.app/
 
 ## Tech Stack
 Frontend: React + Vite + Tailwind CSS
