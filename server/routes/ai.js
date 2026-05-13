@@ -69,4 +69,3 @@ ${message}
 
 module.exports = router;
 
-console.log("GEMINI KEY:", process.env.GEMINI_API_KEY);
