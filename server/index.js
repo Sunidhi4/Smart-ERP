@@ -5,12 +5,7 @@ require('dotenv').config();
 
 const app = express();
 
-app.use(cors({
-  origin: [
-    'http://localhost:5173',
-    'https://smart-erp-hazel.vercel.app/login', // replace with your real URL
-  ],
-}));
+app.use(cors({ origin: '*' }));
 app.use(express.json());
 
 // ── Routes ─────────────────────────────────────────────────────────────────
